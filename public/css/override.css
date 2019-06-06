@@ -17,3 +17,19 @@
 .chat-message > .message {
     white-space: pre;
 }
+
+.menu {
+    margin-right: 1em;
+}
+
+.menu > li {
+    background-color: lightblue;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1.5em;
+}
+
+.menu > li:hover {
+    background-color: #000044;
+    cursor: pointer;
+}

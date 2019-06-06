@@ -25,7 +25,6 @@
              ;; [:view/chat _] [views.chat/index]
 
              ;; if we're logged in, but haven't been able to catch anything else,
-             ;; we default to :views/main
-             [_ :logged-in] [views.main/index]
+             ;; we default to ohnoes
              
              [_ _] [views.ohnoes/index]))))

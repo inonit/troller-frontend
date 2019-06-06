@@ -6,9 +6,9 @@
   (let [menu? (rf/subscribe [:menu/status :active])]
     (fn []
       (if @menu?
-        [:ul.list-unstyled
+        [:ul.list-unstyled.menu
          (for [[view title] [[:view/main "Main"]
-                             ;; [:view/profile "Profile"]
+                             [:view/profile "Profile"]
                              ;; [:view/messages "Messages"]
                              ;; [:view/chat "Chat"]
                              ]]

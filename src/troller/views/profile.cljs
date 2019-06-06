@@ -18,8 +18,6 @@
              (for [[title k] [["Username" :username]
                               ["First name" :first_name]
                               ["Last name" :last_name]
-                              ["Profile image" :image]
-                              
                               ["Bio" :bio]]]
                ^{:key title}
                [:tr
