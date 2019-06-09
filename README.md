@@ -1,6 +1,9 @@
 # troller
 
-Dating for trolls
+Dating for trolls.
+
+The frontend repo for a demo given for the lightning talk
+Feed the Feedback Loop for the Oslo Python Meetup June 2019.
 
 
 ## What you need
