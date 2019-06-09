@@ -9,7 +9,8 @@
             [troller.views.ohnoes :as views.ohnoes]
             [troller.views.main :as views.main]
             [troller.views.messages :as views.messages]
-            [troller.views.profile :as views.profile]))
+            [troller.views.profile :as views.profile]
+            [taoensso.timbre :as log]))
 
 
 (defn index []
@@ -22,7 +23,7 @@
              [:view/main _] [views.main/index]
              [:view/profile _] [views.profile/index]
              [:view/messages _] [views.messages/index]
-             ;; [:view/chat _] [views.chat/index]
+             [:view/chat _] [views.chat/index]
 
              ;; if we're logged in, but haven't been able to catch anything else,
              ;; we default to ohnoes

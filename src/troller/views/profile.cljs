@@ -16,6 +16,7 @@
     [rc/box
      :child [:table.table.table-striped>tbody
              (for [[title k] [["Username" :username]
+                              ["Image" :image]
                               ["First name" :first_name]
                               ["Last name" :last_name]
                               ["Bio" :bio]]]

@@ -9,8 +9,8 @@
         [:ul.list-unstyled.menu
          (for [[view title] [[:view/main "Main"]
                              [:view/profile "Profile"]
-                             ;; [:view/messages "Messages"]
-                             ;; [:view/chat "Chat"]
+                             [:view/messages "Messages"]
+                             [:view/chat "Chat"]
                              ]]
            ^{:key view} [:li {:on-click #(do (rf/dispatch [:troller/view view])
                                              (rf/dispatch [:menu/status :inactive]))} title])
