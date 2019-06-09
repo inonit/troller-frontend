@@ -2,6 +2,8 @@
 
 Dating for trolls.
 
+![Dating for Trolls](troll.png)
+
 The frontend repo for a demo given for the lightning talk
 Feed the Feedback Loop for the Oslo Python Meetup June 2019.
 
